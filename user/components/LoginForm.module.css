@@ -1,0 +1,23 @@
+.userMfeTextFieldInput {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.userMfeLoginPaper {
+  min-width: 600px;
+  padding: 16px;
+}
+
+.userMfeLoginButtonContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.userMfeLoginFormButton {
+  color: green;
+}
+
+.userMfeLoginFormButton:hover {
+  background-color: #b7d3b9;
+}

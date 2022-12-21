@@ -1,0 +1,19 @@
+{
+  "name": "react-host-nextjs-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd host; npm run dev\" \"cd user; npm run dev\" \"cd payment; npm run dev\" \"cd tree; npm run dev\""
+  },
+  "private": true,
+  "workspaces": [
+    "host",
+    "payment"
+  ],
+  "author": "Omher",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "7.4.0"
+  }
+}

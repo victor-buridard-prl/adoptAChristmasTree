@@ -1,0 +1,33 @@
+.payment-mfe--shoppingCartContainer {
+  padding: 8px;
+  margin-right: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.payment-mfe--shoppingCartNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: black;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.payment-mfe--reservationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment-mfe--cancelIconContainer {
+  padding: 16px;
+  cursor: pointer;
+}

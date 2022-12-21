@@ -1,0 +1,14 @@
+.userMfeMenuContainer {
+  padding: 8px;
+  margin-right: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.userMfeogoutButton {
+  color: green;
+}
+
+.userMfeogoutButton:hover {
+  background-color: #b7d3b9;
+}

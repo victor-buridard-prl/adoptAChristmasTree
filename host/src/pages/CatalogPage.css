@@ -1,0 +1,22 @@
+.host-mfe--catalogContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.host-mfe--catalogListContainer {
+  padding: 16px;
+  width: 60%;
+}
+.host-mfe--catalogItemContainer {
+  position: sticky;
+  top: 16px;
+  padding: 16px;
+  width: 35%;
+  height: fit-content;
+}
+
+.host-mfe--reservationButtonContainer {
+  padding: 16px;
+  width: 100%;
+}

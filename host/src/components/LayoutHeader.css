@@ -1,0 +1,17 @@
+.mfe-host--layoutHeaderContainer {
+  width: 100%;
+  background-color: green;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mfe-host--layoutHeaderTitle {
+  padding: 8px;
+}
+
+.mfe-host--menuContainer {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,9 @@
+.userMfeLoginHeaderContainer {
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.userMfeHeaderTitle {
+  padding: 8px;
+}

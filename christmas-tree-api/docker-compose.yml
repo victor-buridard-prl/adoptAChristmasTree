@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  postgresql:
+    container_name: christmas-tree-api-database
+    image: 'postgres:13.0'
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: christmas_tree
+    volumes:
+      - christmas-tree-api:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+volumes:
+  christmas-tree-api:
