@@ -33,6 +33,10 @@ It is composed of the following items:
   - Url => you can look at LoginForm component and redirection to the catalogPage
   - LocalStorage => you can look at the token management both in the LoginForm (writing in local storage) and userMenu (deleting from local storage)
 
+## Shared files
+
+The <mfe-naem>-shared in each micro-frontend could be merged into a single shared library that exports the api client + the event keys to keep a good synchronization between the micro-frontend. In the interest of time this wasn't done in this demo
+
 ## Security Disclaimer
 
 AdoptAChristmas Tree was developped as a plug and play example so it does not provide secrets or environment variables in a separate file. Also the authentication logic / Jwt token management is completely mocked and should never be copied for a production environment.
