@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 
 @Module({
   imports: [
-    //Databases credentials should be stored in an environment file and not pushed to a public repository
+    //In a production ready project databases credentials should be stored in an environment file and not pushed to a public repository
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
