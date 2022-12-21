@@ -41,7 +41,6 @@ const CatalogList = () => {
   }, []);
 
   const publishSelectTreeEvent = (treeId) => {
-    console.log("publish select tree event");
     const selectPlaceEvent = new CustomEvent(SELECT_TREE_EVENT, {
       detail: { treeId },
     });
