@@ -19,11 +19,11 @@ It uses Webpack module federation plugin to properly import components from thre
 
 It is composed of the following items:
 
-- A NestJs api `christmas-tree-api` that encapsulates all the routes needed for the project. In a real micro-service architecture, the different domain tree, user, payment should all be managed by different micro-services. As this project was originately designed as frontend architecture example, it was chosen to regroup all the routes in a single backend application.
-- A React frontend app Host that manages the Layout for the widget based Catalog page and the routing between the pages
-- A React micro-frontend Payment that exposes a ReservationButton and a ShoppingCart component.
-- A React micro-frontend Tree that exposes a CatalogList and a CatalogItem component
-- A Next micro-frontend User that exposes the LoginPage and the UserMenu
+- A NestJs api `christmas-tree-api` that encapsulates all the routes needed for the project. In a real micro-service architecture, the different domain tree, user, payment should all be managed by different micro-services. As this project was originately designed as frontend architecture example, it was chosen to regroup all the routes in a single backend application. This is hosted on port 3000.
+- A React frontend app Host that manages the Layout for the widget based Catalog page and the routing between the pages. This is served on port 8080
+- A React micro-frontend Payment that exposes a ReservationButton and a ShoppingCart component. This is served on port 8082
+- A React micro-frontend Tree that exposes a CatalogList and a CatalogItem component. This is served on port 8083
+- A Next micro-frontend User that exposes the LoginPage and the UserMenu. This is served on port 8081.
 
 ## Where to start ?
 
