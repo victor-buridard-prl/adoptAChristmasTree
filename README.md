@@ -35,7 +35,7 @@ It is composed of the following items:
 
 ## Shared files
 
-The <mfe-naem>-shared in each micro-frontend could be merged into a single shared library that exports the api client + the event keys to keep a good synchronization between the micro-frontend. In the interest of time this wasn't done in this demo
+The `<mfe-name>-shared` directory in each micro-frontend could be merged into a single shared library that exports the api client + the event keys to keep a good synchronization between the micro-frontend. In the interest of time this wasn't done in this demo
 
 ## Security Disclaimer
 
