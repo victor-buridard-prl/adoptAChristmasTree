@@ -6,7 +6,7 @@
 
 ## Setup
 
-- `sh start.sh` from the root directory
+- `sh setup.sh` from the root directory
 - `sh start.sh` from the root directory
 - Go to localhost:8080 to access the host SPA
 - You can login with username `Santa` and password `Xmas`
