@@ -11,7 +11,7 @@ import {
 import { AppService } from './app.service';
 
 const MOCK_TOKEN =
-  'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
 
 // This controller mocks the whole micro-service architecture
 // If this was a real micro-service project /users, /trees and /payments route
@@ -19,7 +19,7 @@ const MOCK_TOKEN =
 
 // This is a mocked behavior for token check. This should never be used in production
 const mockTokenGuard = (token) => {
-  if (token !== MOCK_TOKEN) {
+  if (token !== `Bearer ${MOCK_TOKEN}`) {
     throw new HttpException('Unauthorized', 401);
   }
 };
