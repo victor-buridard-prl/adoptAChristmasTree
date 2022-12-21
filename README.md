@@ -36,3 +36,5 @@ It is composed of the following items:
 ## Security Disclaimer
 
 AdoptAChristmas Tree was developped as a plug and play example so it does not provide secrets or environment variables in a separate file. Also the authentication logic / Jwt token management is completely mocked and should never be copied for a production environment.
+
+For this reason it is not recommended to use the backend part of this project as a boilerplate to developp a nestjs application.
