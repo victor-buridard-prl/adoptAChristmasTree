@@ -27,7 +27,7 @@ It is composed of the following items:
 
 ## Where to start ?
 
-- Import of components from remote micro-frontends to host application => you can look at the webpack configuration files `webpack.config.js` for React micro-frontends / host and next.config.js for the Next user micro-frontend
+- Import of components from remote micro-frontends to host application => you can look at the webpack configuration files `webpack.config.js` for React micro-frontends / host and `next.config.js` for the Next user micro-frontend
 - Communication between micro-frontend
   - Js Event => you can look at the interaction between the CatalogList (in tree Microfrontend) when an item in the list is clicked and the ReservationButton (in payment micro-frontend). The common event used by those two components is the SELECT_TREE_EVENT
   - Url => you can look at LoginForm component and redirection to the catalogPage
